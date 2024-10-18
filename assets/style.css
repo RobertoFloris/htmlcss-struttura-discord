@@ -17,7 +17,7 @@
   margin-bottom: 20px;
 }
 
-.row{
+header .row{
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -45,4 +45,23 @@ header nav ul a:hover{
 
 #downloadbutton{
   justify-content: center;
+}
+
+main .row{
+  display: flex;
+  width: 100%;
+  min-height: 200px;
+  justify-content: center;
+}
+
+.text{
+  width: 30%;
+}
+
+.img{
+  width: 70%;
+}
+
+.main_footer{
+  min-height: 500px;
 }
