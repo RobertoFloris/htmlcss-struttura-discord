@@ -65,3 +65,7 @@ main .row{
 .main_footer{
   min-height: 500px;
 }
+
+.elenco:nth-child(even){
+  background-color: rgb(202, 202, 202);
+}
